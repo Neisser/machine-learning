@@ -1,4 +1,4 @@
-use super::gradient::{calculate_cost, gradient_descent};
+use crate::libs::gradient_descents::gradient::{calculate_cost, gradient_descent};
 use crate::libs::dataset::lineal_dataset::DataSet;
 
 use super::model::Model;
