@@ -6,7 +6,7 @@ use super::model::Model;
 pub struct LinealRegressionOptions {
     pub epochs: u32,
     pub learning_rate: f64,
-    pub nornalize: bool,
+    pub normalize: bool,
 }
 
 pub struct LinealRegression {
@@ -59,7 +59,7 @@ impl Model<f64, f64> for LinealRegression {
     /// model.fit().expect("Failed to train model");
     /// ```
     fn fit(&mut self) -> Result<(), Box<dyn std::error::Error>> {
-        if self.options.nornalize {
+        if self.options.normalize {
             // Normalize training data
             self.training_data.normalize();
         }
