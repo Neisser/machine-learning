@@ -6,10 +6,10 @@ This project implements a differents machine learnings algorithms in rust langua
 
 ## Routemap
 
-- [ ] import data from csv files
-- [ ] create model trait structure
-- [ ] create lineal regression model with one variable
-- [ ] gradient_descent algorithm
+- [x] import data from csv files
+- [x] create model trait structure
+- [x] create lineal regression model with one variable
+- [x] gradient_descent algorithm
 - [ ] create data normalization
 - [ ] create data standardization
 - [ ] create statistics module
