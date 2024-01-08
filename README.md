@@ -1,8 +1,8 @@
-# Linear Regression Project
+# Machine Learning Algorithms
 
 ## Overview
 
-This project implements a linear regression model in Rust, capable of fitting a line to a set of data points and making predictions based on the learned model.
+This project implements a differents machine learnings algorithms in rust language.
 
 ## Routemap
 
